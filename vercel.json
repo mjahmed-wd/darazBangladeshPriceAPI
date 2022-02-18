@@ -1,5 +1,5 @@
 {
-    "name": "DarazPK API",
+    "name": "DarazBD API",
     "version": 2,
     "builds": [{
         "src": "*py",
