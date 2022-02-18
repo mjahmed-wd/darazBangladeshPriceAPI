@@ -8,7 +8,7 @@ def fetchInfo(product):
     # For Example:
     # In https://www.daraz.pk/products/this-is-a-test-product-i212716725-s1420886889.html
     # product is "this-is-a-test-product-i212716725-s1420886889.html"
-    url = "https://www.daraz.pk/products/" + product
+    url = "https://www.daraz.com.bd/products/" + product
     html_doc = requests.get(url).text
     data = re.search(r'pdpTrackingData = ("{.*}")', html_doc)
     if data is None:
